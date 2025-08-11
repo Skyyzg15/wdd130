@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:wght@700&family=PT+Serif&display=swap');
 :root {
-    --primary-color: #95dff5f8;
-    --secondary-color:#05665e;
+    --primary-color: #c0ebf8f8;
+    --secondary-color:#053a66;
     --accent1-color: #073d83;
     --accent2-color: #E7DADA;
     --heading-font: "Roboto", bold;
@@ -82,7 +82,7 @@ header img {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 10%;
     left: 0;
@@ -184,6 +184,163 @@ section {
     width: 100px;
     height: 100px;
 }
+
+ /*Contact selectors*/
+.rectangle {
+    width: 900px;
+    padding: 8px;
+    background: var(--primary-color);
+    border-radius: 3px;
+    min-height: 217px;
+}
+
+.rectangle h1 {
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 3.6rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.rectangle p {
+    text-align: center;
+    padding: 0 1rem;
+    font-size: large;
+}
+
+.employees-profile h2 {
+    font-family: 'Bebas Neue';
+    font-size: xx-large;
+    color: var(--secondary-color);
+}
+.employees {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 29px;
+}
+.employees figure {
+    width: 230px;
+}
+
+.employees figcaption {
+    width: 220px;
+}
+  
+.employees img {
+    width: 220px;
+    height: 150px;
+}
+  
+.employees h3, .employees p {
+    text-align: center;
+}
+
+.information h2 {
+    color: #26287D;
+    text-align: left;
+}
+
+.contact-message {
+    display: flex;
+    justify-content: center;
+}
+.information-map h2 {
+    font-family: 'Bebas Neue';
+    color: var(--primary-color);
+}
+.information-map {
+    display: flex;
+    padding-top: 15px;
+}
+.column {
+    flex: 50%;
+}
+
+.column h2 {
+    color: var(--secondary-color);
+}
+
+ /*Form Caracteristics*/
+form {
+    width: 500px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    padding: 0.5rem;
+}
+
+label, input, button, select, textarea {
+    font-family: PT Serif, Arial, sans-serif;
+}
+label {
+    text-align: left;
+    padding-right: 1rem;
+    margin: 0.5rem;
+}
+
+input, select, textarea {
+    padding: 0.4rem;
+    font-size: 1rem;
+}
+
+input [type="checkbox"] {
+    width: 40px;
+    height: 40px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--accent1-color);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: rgb(38, 151, 226);
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 1fr ;
+    margin: 0.5rem ;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.column1 label {
+    text-align: left;
+}
+
+.column2 {
+    grid-template-columns: 1fr 3fr;
+}
+
+.column3 label {
+    text-align: left;
+}
+
+.column4 {
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+} 
 /*Footer*/
 footer {
     display: flex;
