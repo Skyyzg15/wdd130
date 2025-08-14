@@ -365,3 +365,183 @@ footer p {
     width: 3rem;
     height: 3rem;
 }
+/*Form Caracteristics*/
+form {
+    width: 500px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    padding: 0.5rem;
+}
+
+label, input, button, select, textarea {
+    font-family: PT Serif, Arial, sans-serif;
+}
+label {
+    text-align: left;
+    padding-right: 1rem;
+    margin: 0.5rem;
+}
+
+input, select, textarea {
+    padding: 0.4rem;
+    font-size: 1rem;
+}
+
+input [type="checkbox"] {
+    width: 40px;
+    height: 40px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: rgb(38, 38, 112);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: rgb(38, 151, 226);
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 1fr ;
+    margin: 0.5rem ;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.column1 label {
+    text-align: left;
+}
+
+.column2 {
+    grid-template-columns: 1fr 3fr;
+}
+
+.column3 label {
+    text-align: left;
+}
+
+.column4 {
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+} 
+/*Home selectors*/
+.newsletter legend {
+    font-family: 'Bebas Neue';
+    color: #26287D;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+.newsletter{
+    display: flex;
+    justify-content: center;
+}
+.newsletter form {
+    width: 300px;
+}
+.cta {
+    text-align: center;
+}
+.cta h2 {
+    color: #26287D;
+    font-family: 'Bebas Neue';
+    font-size: xx-large;
+}
+.grid-container {
+    display: inline-block;
+}
+.grid-item {
+    display: inline-block;
+    margin-right: 1px;
+    margin-left: 7.5rem;
+}
+.grid-item figure {
+    width: 320px;
+    border: none;
+}
+.grid-item img {
+    width: 320px;
+    height: 220px;
+}
+.grid-item h3 {
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-weight: 100;
+}
+.grid-item p {
+    text-align: center;
+}
+
+ /*Trip forms*/
+.trip-information h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: xx-large;
+}
+.trip {
+    display: inline-block;
+    margin-right: 8px;
+    margin-left: 35px;
+}
+.trip figure {
+    width: 260px;
+}
+
+.trip figcaption {
+    width: 254px;
+    font-family: 'Bebas Neue';
+    font-size: large;
+}
+  
+.trip img {
+    width: 260px;
+    height: 150px;
+}
+  
+.trip h3, .trip p {
+    text-align: center;
+}
+
+ /*Table form*/ 
+.table {
+    font-family: 'Bebas Neue';
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+  
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+  
+th {
+    background-color: #f2f2f2;
+    color: #333333;
+}
