@@ -1,12 +1,12 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap);
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 :root {
-    --primary-color: #c0ebf8f8;
+    --primary-color: #96ccf8;
     --secondary-color:#053a66;
     --accent1-color: #073d83;
     --accent2-color: #E7DADA;
