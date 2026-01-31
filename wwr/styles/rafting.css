@@ -5,17 +5,17 @@
     box-sizing: border-box;
 }
 
-:root {
-    --primary-color: #96ccf8;
-    --secondary-color:#053a66;
-    --accent1-color: #073d83;
+:root { 
+    --primary-color: #8ee9b1;
+    --secondary-color:#166864;
+    --accent1-color: #125349;
     --accent2-color: #E7DADA;
     --heading-font: "Roboto", bold;
     --body-font: "Roboto", sans-serif;
 }
 
 header {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: var(--accent2-color);
 }
 
@@ -55,7 +55,7 @@ nav, p, section, article {
 
 h1 {
     position: absolute;
-    top: 20px;
+    top: 25px;
     width: 100%;
     padding: 16px;
     text-align: center;
