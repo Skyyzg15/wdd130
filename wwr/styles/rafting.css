@@ -20,11 +20,17 @@ header {
     color: var(--accent2-color);
     display: grid;
     grid-template-columns: 1fr auto 1fr;
-    align-items: center;
+    align-items:end;
     padding: 2px;
     max-width: 1000px;
     max-height: 200px;
     border-bottom: 5px solid #ccc;
+}
+
+.logo img {
+    margin-left: 6rem;
+    width: 64px;
+    height: auto;
 }
 
 body {
