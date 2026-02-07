@@ -152,3 +152,13 @@ section p {
     justify-content: center;
     padding: 1rem;
 }
+.about-images {
+    display:flex;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+
+.wireframe img {
+    width: 100px;
+    height: 100px;
+}
