@@ -357,11 +357,14 @@ footer p {
 }
 .socialmedia {
     display: flex;           /* Arrange children in a row */
-    justify-content: flex-end; /* Align items to the right */
-    gap: 0.5rem;               
+    justify-content: center; /* Align items to the right */
+    gap: 0.4rem;               
     padding: 1rem 0;
 }
 .socialmedia img {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
     width: 3rem;
     height: 3rem;
 }
