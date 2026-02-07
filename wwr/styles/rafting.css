@@ -48,12 +48,17 @@ nav, p, section, article {
 }
 
 .socialmedia a {
+    text-decoration: none;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    gap: 0.4rem;               
+    padding: 1rem 0;
 }
 
 .socialmedia img {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
     width: 3rem;
     height: 3rem;
 }
@@ -97,6 +102,29 @@ h2 {
     display: flex;
     justify-content: center;
     padding-top: 1rem;
+}
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 4px;
+    width: 170px;
+    margin: 0 10px 10px 0;
+    display: inline-block;
+}
+
+figure img {
+    width: 150px;
+    height: 120px; 
+}
+
+figcaption {
+    background-color: black;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
 }
 
 .history {
