@@ -162,3 +162,71 @@ section p {
     width: 100px;
     height: 100px;
 }
+/*Contact selectors*/
+.rectangle {
+      width: 900px;
+    padding: 8px;
+    background: var(--primary-color);
+    border-radius: 3px;
+    min-height: 217px;
+}
+
+.rectangle h1 {
+     text-align: center;
+    color: var(--secondary-color);
+    font-size: 3.6rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.rectangle p {
+    text-align: center;
+    padding: 0 1rem;
+    font-size: large;
+}
+
+.employees {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 29px;
+}
+
+.employees figure {
+    width: 230px;
+}
+
+.employees figcaption {
+    width: 220px;
+}
+.employees img {
+    width: 220px;
+    height: 150px;
+}
+
+.employees h3, .employees p {
+    text-align: center;
+}
+
+.information h2 {
+    color: #26287D;
+    text-align: left;
+}
+
+.contact-message {
+    display: flex;
+    justify-content: center;
+}
+.information-map h2 {
+    font-family: 'Bebas Neue';
+    color: var(--primary-color);
+}
+.information-map {
+    display: flex;
+    padding-top: 15px;
+}
+.column {
+    flex: 50%;
+}
+
+.column h2 {
+    color: var(--secondary-color);
+}
