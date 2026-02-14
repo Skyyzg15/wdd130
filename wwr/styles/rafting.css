@@ -24,7 +24,7 @@ header {
     padding: 2px;
     max-width: 1000px;
     max-height: 200px;
-    border-bottom: 5px solid #ccc;
+    border-bottom: 5px solid white;
 }
 
 .logo img {
@@ -164,7 +164,7 @@ section p {
 }
 /*Contact selectors*/
 .rectangle {
-      width: 900px;
+    width: 900px;
     padding: 8px;
     background: var(--primary-color);
     border-radius: 3px;
@@ -172,7 +172,7 @@ section p {
 }
 
 .rectangle h1 {
-     text-align: center;
+    text-align: center;
     color: var(--secondary-color);
     font-size: 3.6rem;
     font-family: 'Bebas Neue', sans-serif;
