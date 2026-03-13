@@ -2,6 +2,21 @@ main {
     max-width: 840px;
 }
 
+h1 {
+    color: pink;
+}
+
+nav {
+    background-color: beige;
+    padding: 0%;
+}
+
+nav a {
+    color: black;
+    padding: 0%;
+    display: block;
+}
+
 aside {
     width: 20rem;
     margin: 1rem;
@@ -20,6 +35,9 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    border: #000;
+    padding: auto;
+    box-shadow: none;
 }
 
 p {
