@@ -2,19 +2,19 @@ main {
     max-width: 840px;
 }
 
-h1 {
-    color: pink;
-}
-
 nav {
     background-color: beige;
-    padding: 0%;
+    padding: 10px;
 }
 
 nav a {
     color: black;
-    padding: 0%;
     display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: pink;
 }
 
 aside {
@@ -41,7 +41,7 @@ main img {
 }
 
 p {
-    padding: 0;
+    padding: 10px;
 }
 
 footer {
