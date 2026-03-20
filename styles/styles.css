@@ -1,9 +1,16 @@
+:root {
+    --primary-color: beige;
+    --secondary-color: pink;
+    --accent1-color: black;
+    --accent2-color: white;
+}
+
 main {
     max-width: 840px;
 }
 
 nav {
-    background-color: beige;
+    background-color: var(--primary-color);
     padding: 10px;
 }
 
@@ -14,7 +21,7 @@ nav a {
 }
 
 h1 {
-    color: pink;
+    color: var(--secondary-color);
 }
 
 aside {
@@ -22,8 +29,8 @@ aside {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
     text-align: center;
 }
 
