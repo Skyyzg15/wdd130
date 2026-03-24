@@ -17,6 +17,12 @@ body {
     color: var(--accent1-color);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header,
 main,
 footer {
@@ -59,14 +65,14 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent2-color);
+    background-color: var(--accent1-color);
     color: #fff;
 }
 
 .hero article {
     position: absolute;
     top: 40%;
-    background-color: #E7DADA;
+    background-color: var(--accent1-color);
     color: white;
     opacity: 0.7;
     padding: 15px;
