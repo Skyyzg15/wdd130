@@ -39,7 +39,7 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    width: 900px;
     margin: auto;
 }
 
@@ -65,11 +65,11 @@ article {
     height: auto;
 }
 
-footer a {
+footer nav {
+    padding: 1rem;
     text-decoration: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -123,7 +123,7 @@ figure {
     display: inline-block;
 }
 
-footer {
+footer p {
     display: flex;
     justify-content: center;
 }
