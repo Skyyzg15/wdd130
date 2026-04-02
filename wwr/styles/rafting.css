@@ -4,12 +4,25 @@
     --accent1-color: #264653;
     --accent2-color: #E7DADA;
     --heading-font: "Times New Roman", bold;
-    --body-font: Bebas Neue, Helvetica, sans-serif;
+    --body-font: Arial, Helvetica, sans-serif;
 }
 
 header {
     background-color: var(--secondary-color);
     color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 2px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    gap: 70px;
+    padding: 1rem;
 }
 
 body {
@@ -46,6 +59,8 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+    display: flex;
+    justify-content: right;
 }
 
 .hero {
@@ -81,4 +96,9 @@ h1 {
 .hero article img {
     float: right;
     width: 140px;
+}
+
+section h2 {
+    display: flex;
+    justify-content: center;
 }
