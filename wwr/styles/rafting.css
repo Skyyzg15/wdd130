@@ -57,10 +57,20 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
+.socialmedia img {
     text-decoration: none;
     display: flex;
     justify-content: right;
+    align-items: center;
+    width: 2rem;
+    height: auto;
+}
+
+.socialmedia a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hero {
@@ -99,6 +109,21 @@ h1 {
 }
 
 section h2 {
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 4px;
+    width: 170px;
+    margin: 0 10px 10px 0;
+    display: inline-block;
+}
+
+footer {
     display: flex;
     justify-content: center;
 }
