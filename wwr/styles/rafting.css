@@ -58,7 +58,6 @@ article {
 }
 
 .socialmedia img {
-    text-decoration: none;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -66,7 +65,8 @@ article {
     height: auto;
 }
 
-.socialmedia a {
+footer a {
+    text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
