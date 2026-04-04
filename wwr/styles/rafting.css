@@ -58,19 +58,8 @@ article {
 }
 
 .socialmedia img {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    width: 2rem;
-    height: auto;
-}
-
-footer nav {
-    padding: 1rem;
-    text-decoration: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    width: 40px;
+    margin-left: 10px;
 }
 
 .hero {
@@ -113,17 +102,24 @@ section h2 {
     justify-content: center;
 }
 
-figure {
+.raft {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    padding: 4px;
-    width: 170px;
-    margin: 0 10px 10px 0;
-    display: inline-block;
+    gap: 15px;
+    padding: 2px;
 }
 
-footer p {
+figure img {
+    width: 200px;
+    height: 150px;
+}
+
+figcaption {
     display: flex;
     justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
