@@ -123,3 +123,7 @@ footer {
     justify-content: center;
     align-items: center;
 }
+/*Class Selectors*/
+.socialmedia a {
+    text-decoration: none;
+}
