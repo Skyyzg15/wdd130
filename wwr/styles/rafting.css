@@ -123,7 +123,33 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
 /*Class Selectors*/
 .socialmedia a {
     text-decoration: none;
+}
+
+/*Contact Selectors*/
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
 }
