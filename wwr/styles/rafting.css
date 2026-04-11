@@ -140,6 +140,51 @@ button {
     font-size: 1.2rem;
 }
 
+.employees {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 2px;
+}
+
+.section h2 {
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+}
+
+.column {
+    display: grid;
+    justify-content: center;
+}
+
+.contact-container {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.map {
+    float: left;
+}
+
+.form {
+    display: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    padding: 5px;
+}
+
+label {
+    text-align: center;
+    padding-right: 1rem;
+}
+
 .form-item {
     display: grid;
     align-items: center;
@@ -152,4 +197,10 @@ button {
 
 .column2 {
     grid-template-columns: 1fr 2fr;
+}
+
+/*Footer*/
+.wireframe img {
+    width: 100px;
+    height: 100px;
 }
