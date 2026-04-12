@@ -18,11 +18,12 @@ header {
 
 .navigation {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
-    gap: 70px;
+    gap: 85px;
     padding: 1rem;
+    font-size: large;
 }
 
 body {
@@ -98,24 +99,23 @@ h1 {
 }
 
 section h2 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .raft {
     display: flex;
+    justify-content: center;
     gap: 15px;
     padding: 2px;
 }
 
-figure img {
+.raft img {
     width: 200px;
     height: 150px;
 }
 
 figcaption {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 footer {
@@ -228,11 +228,11 @@ label {
 }
 
 .grid-container {
-    display: inline-block;
+    display: flex;
 }
 
 .grid-item {
-    display: inline-block;
+    display: flex;
     margin-right: 1px;
     margin-left: 7.5rem;
 }
@@ -247,25 +247,27 @@ label {
     height: 220px;
 }
 
-.grid-item h3 {
-    text-align: center;
+.figure h3 {
+    justify-content: center;
     font-family: 'Bebas Neue';
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .grid-item p {
     text-align: center;
 }
 
+/*Trips*/
 .trip-information h2 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: xx-large;
 }
 
 .trip {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     margin-right: 8px;
-    margin-left: 35px;
+    margin-left: 20px;
 }
 
 .trip figure {
